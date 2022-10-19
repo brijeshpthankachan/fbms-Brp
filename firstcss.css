@@ -1,0 +1,44 @@
+.one {
+
+    color: red;
+}
+
+
+.border {
+
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+
+.outerContainer {
+
+    width: 50%;
+    height: 50%;
+    margin-top: 50px;
+}
+
+
+.headingContainer {
+
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+html,
+body {
+
+    margin: 0px;
+    height: 100px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: rgb(78, 128, 230);
+}
