@@ -34,6 +34,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    border-radius: 10px;
 
 }
 
@@ -44,6 +45,8 @@ html {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     display: flex;
     justify-content: center;
+    border-radius: 10px;
+
     
 }
 
@@ -52,6 +55,8 @@ html {
     background: rgb(255, 255, 255);
     width: 100%;
     display: flex;
+    border-radius: 10px;
+
 
 
 }
@@ -62,6 +67,8 @@ html {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    border-radius: 10px;
+
 
 }
 
@@ -71,6 +78,8 @@ html {
     padding: 8px;
     background: rgb(255, 255, 255);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+
 
 }
 

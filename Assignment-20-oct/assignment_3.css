@@ -1,0 +1,51 @@
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background: rgb(255, 255, 255);
+}
+
+.sub {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.subcontainer {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background: rgb(234, 223, 240);
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  background-color: rgb(251, 251, 251);
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-image: url("./elephant-alone.png");
+}
+
+h3 {
+  font-family: cursive;
+}
