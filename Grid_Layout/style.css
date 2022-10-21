@@ -11,5 +11,23 @@
     border: 2px solid greenyellow;
     height: 100px;
     margin: 3px;
+    animation: fs1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fs1 {
+    
+    /* from {background-color: aliceblue;}
+    to {background-color: brown;} */
+    0% {background-color: aqua;}
+    10% {background-color: rgb(150, 138, 220);}
+
+    20% {background-color: rgb(186, 66, 213);}
+
+    50% {background-color: rgb(53, 235, 144);}
+
+    100% {background-color: rgb(103, 186, 186);}
 
 }
+

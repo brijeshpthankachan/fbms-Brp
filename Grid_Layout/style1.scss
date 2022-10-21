@@ -1,0 +1,10 @@
+@mixin borderdStyle($width,$color) {
+    
+    border: $width solid $color;
+
+}
+
+
+.div-border{
+    @include borderdStyle(2PX,green);
+}
