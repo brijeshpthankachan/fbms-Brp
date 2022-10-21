@@ -1,0 +1,13 @@
+.container{
+
+    display: flex;
+    
+}
+
+
+div{
+
+    border: 2px solid green;
+    background: red;
+
+}

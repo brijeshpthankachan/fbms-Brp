@@ -1,0 +1,42 @@
+html,
+body {
+  margin: 0px;
+  padding: 0;
+  height: 100vh;
+  background: aqua;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color:mediumaquamarine;
+}
+
+.leftDiv {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 60%;
+  background:mediumaquamarine;
+  padding: 10px;
+}
+
+.rightDiv {
+  background: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.card {
+  background: rgb(20, 231, 255);
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  margin: 10px;
+}

@@ -1,0 +1,50 @@
+.leftDiv{
+
+    position: relative;
+    top:10px;
+    left:20px;
+    border: 2px solid black;
+    position: relative;
+    background-color: aliceblue;
+    width: 40%;
+    float: left;
+}
+
+
+
+.rightDiv{
+
+    background-color: aqua;
+    width: 50%;
+    text-align: justify;
+    float: left;
+
+}
+
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+div{
+    border: 2px dotted red;
+}
+
+
+
+body{
+
+    padding: 10px;;
+}
+
+
+.rightDiv:hover{
+
+    color: teal;
+    background-color: blanchedalmond;
+}
+
+.rightDiv:visited{
+
+}

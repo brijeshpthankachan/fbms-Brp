@@ -1,0 +1,15 @@
+.container{
+
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    margin: 3px;
+}
+
+.card{
+    border: 2px solid greenyellow;
+    height: 100px;
+    margin: 3px;
+
+}

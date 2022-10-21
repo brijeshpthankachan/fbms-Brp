@@ -1,0 +1,49 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.mainContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.subContainer {
+  width: 80%;
+  margin: auto;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottomContainer {
+  display: flex;
+}
+
+.rightSideDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.leftSideDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  min-width: 20%;
+}
+
+.bg{
+  
+
+    background: url("../images/sidebg.png");
+}
