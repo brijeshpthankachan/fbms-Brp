@@ -47,3 +47,41 @@ Bootstrap CDN
 <div class="container p-5 my-5 bg-primary text-white"></div>
 
 ```
+
+
+### Bootstrap 5 Grid System
+
+*Bootstrap's grid system is built with `flexbox and allows up to 12 columns` across the page.*
+
+*If you do not want to use all 12 columns individually, you can group the columns together to create wider columns*
+
+*Make sure that the sum adds up to 12 or fewer (it is not required that you use all 12 available columns).*
+
+#### Grid Classes
+
+**The Bootstrap 5 grid system has six classes**
+
+- *`.col-` extra small devices - screen width less than 576px*
+- *`.col-sm-` small devices - screen width equal to or greater than 576px*
+- *`.col-md-` medium devices - screen width equal to or greater than 768px*
+- *`.col-lg-`large devices - screen width equal to or greater than 992px*
+- *`.col-xl-` xlarge devices - screen width equal to or greater than 1200px*
+- *`.col-xxl-`xxlarge devices - screen width equal to or greater than 1400px*
+
+
+```html
+<div class="row">
+  <div class="col-sm-4">.col-sm-4</div>
+  <div class="col-sm-8">.col-sm-8</div>
+</div>
+```
+
+*column with automatic width*
+```html
+<div class="row">
+  <div class="col">.col</div>
+  <div class="col">.col</div>
+  <div class="col">.col</div>
+</div>
+```
+
