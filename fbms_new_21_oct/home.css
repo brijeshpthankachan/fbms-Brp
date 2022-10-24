@@ -41,9 +41,104 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: left;
+  max-width:350px ;
 }
 
-/* body{
 
-  background-color: #FBFBFB;
+
+.back{
+  background-image: url('../Assets/images/plane\ with\ globe_new.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.board{
+  display: flex;
+  padding: 10[x];
+  justify-content: center;
+  border-radius: 10px;
+
+}
+
+.borad-1{
+
+  font-family: cursive;
+  background:rgb(249, 249, 249);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 10px;
+
+
+}
+
+.row2{
+
+
+  background:rgba(80, 118, 212, 0.281);
+  border-radius: 10px;
+  font-family: cursive;
+  text-align: center;
+}
+
+.row1{
+  text-align: left;
+}
+
+.row3{
+
+  text-align: center; 
+}
+
+
+.nav{
+  font-family: cursive;
+  font-size: medium;
+  font-weight: bold;
+  
+}
+
+
+/* .card{
+
+  background: red;
+  width: 200px;
+  height: 200px;
+
 } */
+
+.card_{
+
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  margin: 8px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  height: fit-content;
+  width: fit-content;
+  font-size: smaller;
+  font-family: cursive;
+
+}
+
+.card-contain{
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-grow: 2;
+}
+
+.for_form{
+
+  background: white;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+}

@@ -11,13 +11,20 @@
       rel="stylesheet"
     />
   </head>
-  <body style="background: #fbfbfb">
+  <body
+    style="
+      background: url('https://media.giphy.com/media/gOm3EhtWpKNrfnPHjc/giphy.gif');
+      /* background-size: cover; */
+      background-repeat: repeat-x;
+      background-color: rgb(226, 228, 230);
+    "
+  >
     <!-- outer most div -->
-    <div class="container">
+    <div class="container-fluid p-4 bg-light bg-opacity-50">
       <!-- inner top div for navbar  -->
       <div class="container-fluid">
         <div
-          class="navbar navbar-expand-sm bg-light justify-content-center fixed-top"
+          class="navbar navbar-expand-md justify-content-around fixed-top nav"
         >
           <ul class="navbar-nav">
             <li class="nav-item">
@@ -40,9 +47,9 @@
         </div>
 
         <!-- bootom div for content  -->
-        <div class="container p-5 bg-light">
+        <div class="container p-5">
           <div class="row pt-5">
-            <div class="col">
+            <div class="col-3">
               <div class="side1">
                 <h2
                   style="
@@ -50,7 +57,8 @@
                       sans-serif;
                   "
                 >
-                  READY TO TAKE OFF?
+                  The <span style="color: violet"> Journey </span> of thousand
+                  miles begins with a single step
                 </h2>
                 <p style="font-family: cursive">
                   Turn your extra space into your next opportunity
@@ -58,18 +66,24 @@
                 <button id="btn-1" class="btn btn-primary">Try for free</button>
               </div>
             </div>
-            <div class="col">
-              <img
+            <div class="col back">
+              <!-- <img
                 src="https://www.animatedimages.org/data/media/71/animated-aeroplane-image-0101.gif"
-                border="0"
-                alt="animated-aeroplane-image-0101"
-                style="background-size: cover; padding: 0px"
-              />
-              <!-- <img class="img-fluid " src="../Assets/images/plane with globe.png" alt="" /> -->
+                height="150px"
+                width="100%"
+              /> -->
+              <!-- <img class="img-fluid " src="../Assets/images/plane with globe.png" alt="" height="100" /> -->
             </div>
             <div class="col">
               <div class="side-3-main">
-                <h3>Book Flight Tickets</h3>
+                <h3
+                  style="
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold',
+                      sans-serif;
+                  "
+                >
+                  Book Flight Tickets
+                </h3>
                 <p>New features for traveling during the covid-10 autobreak</p>
                 <div class="side-3">
                   <div style="display: flex; justify-content: space-between">
@@ -121,7 +135,6 @@
                       margin-bottom: 0px;
                     "
                   ></div>
-                  <!-- <hr style="margin:1px ; border:1px dotted black;"> -->
 
                   <img
                     src="../Assets/images/barcode.png"
@@ -132,6 +145,487 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="board">
+          <div class="col-10 p-4 borad-1">
+            <div class="row p-2 justify-content-around row1">
+              <div class="col-2">
+                <select name="" id="" class="form-select">
+                  <option value="Round Trip" selected>Round Trip</option>
+                  <option value="">One way</option>
+                </select>
+              </div>
+              <div class="col-2">
+                <select name="" id="" class="form-select">
+                  <option value="">1 Adult</option>
+                  <option value="">2 Adults</option>
+                  <option value="">2 Adults+1child</option>
+                </select>
+              </div>
+              <div class="col-2">
+                <select name="" id="" class="form-select">
+                  <option value="">Economy</option>
+                  <option value="">Premium Economy</option>
+                  <option value="">Business Class</option>
+                  <option value="">First Class</option>
+                </select>
+              </div>
+              <div class="col"></div>
+              <div class="col" style="text-align: right">
+                Looking for travel ideas ?.
+              </div>
+            </div>
+            <div class="row p-2 justify-content-around row2">
+              <div class="col">
+                <select name="" id="" class="form-select">
+                  <option value="">Delhi</option>
+                  <option value="">Kochi</option>
+                  <option value="">Trivandrum</option>
+                </select>
+              </div>
+              <div class="col">
+                <select name="" id="" class="form-select">
+                  <option value="">Agra</option>
+                  <option value="">Dhakka</option>
+                  <option value="">Bengalaru</option>
+                </select>
+              </div>
+              <div class="col">
+                <input type="date" name="" id="" class="form-control" />
+              </div>
+              <div class="col">
+                <input type="date" name="" id="" class="form-control" />
+              </div>
+              <div class="col">
+                <button class="btn btn-primary">Search</button>
+              </div>
+            </div>
+
+            <div class="row pt-4 row3">
+              <div class="col">My Booking</div>
+              <div class="col">Flight Status</div>
+              <div class="col">Charter Flights</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row p-5">
+        <div class="col-8">
+          <div class="card-contain">
+            <div class="card_">
+              <img src="../Assets/images/1057.jpg" alt="" width="200px" />
+
+              <table class="table">
+                <tr>
+                  <th>
+                    American Airlines <br />
+                    <span style="color: blue">AA897</span>
+                  </th>
+                  <td></td>
+                  <td>
+                    Status <br />
+                    <span style="color: rgb(136, 213, 20)"> ontime</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Los Angles <br />
+                    <b>LAX</b><br />
+                    <small> Terminal 4, Gate 48A </small>
+                  </td>
+                  <td></td>
+                  <td>
+                    Chicago <br />
+                    <b>ORD</b> <br />
+                    <small>Terminal 3, Gate H16</small>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Departing</td>
+                  <td></td>
+                  <td>
+                    11:55 PM PST <br />
+                    <small>Thu, Dec 20</small>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Arrivinig</td>
+                  <td></td>
+                  <td>
+                    6:01 AM CST <br />
+                    <small> Fri, Dec 21</small>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="card_">
+              <img src="../Assets/images/1057.jpg" alt="" width="200px" />
+
+              <table class="table">
+                <tr>
+                  <th>
+                    American Airlines <br />
+                    <span style="color: blue">AA897</span>
+                  </th>
+                  <td></td>
+                  <td>
+                    Status <br />
+                    <span style="color: rgb(136, 213, 20)"> ontime</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Los Angles <br />
+                    <b>LAX</b><br />
+                    <small> Terminal 4, Gate 48A </small>
+                  </td>
+                  <td></td>
+                  <td>
+                    Chicago <br />
+                    <b>ORD</b> <br />
+                    <small>Terminal 3, Gate H16</small>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Departing</td>
+                  <td></td>
+                  <td>
+                    11:55 PM PST <br />
+                    <small>Thu, Dec 20</small>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Arrivinig</td>
+                  <td></td>
+                  <td>
+                    6:01 AM CST <br />
+                    <small> Fri, Dec 21</small>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="card_">
+              <img src="../Assets/images/1057.jpg" alt="" width="200px" />
+
+              <table class="table">
+                <tr>
+                  <th>
+                    American Airlines <br />
+                    <span style="color: blue">AA897</span>
+                  </th>
+                  <td></td>
+                  <td>
+                    Status <br />
+                    <span style="color: rgb(136, 213, 20)"> ontime</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Los Angles <br />
+                    <b>LAX</b><br />
+                    <small> Terminal 4, Gate 48A </small>
+                  </td>
+                  <td></td>
+                  <td>
+                    Chicago <br />
+                    <b>ORD</b> <br />
+                    <small>Terminal 3, Gate H16</small>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Departing</td>
+                  <td></td>
+                  <td>
+                    11:55 PM PST <br />
+                    <small>Thu, Dec 20</small>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Arrivinig</td>
+                  <td></td>
+                  <td>
+                    6:01 AM CST <br />
+                    <small> Fri, Dec 21</small>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="card_">
+              <img src="../Assets/images/1057.jpg" alt="" width="200px" />
+
+              <table class="table">
+                <tr>
+                  <th>
+                    American Airlines <br />
+                    <span style="color: blue">AA897</span>
+                  </th>
+                  <td></td>
+                  <td>
+                    Status <br />
+                    <span style="color: rgb(136, 213, 20)"> ontime</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Los Angles <br />
+                    <b>LAX</b><br />
+                    <small> Terminal 4, Gate 48A </small>
+                  </td>
+                  <td></td>
+                  <td>
+                    Chicago <br />
+                    <b>ORD</b> <br />
+                    <small>Terminal 3, Gate H16</small>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Departing</td>
+                  <td></td>
+                  <td>
+                    11:55 PM PST <br />
+                    <small>Thu, Dec 20</small>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Arrivinig</td>
+                  <td></td>
+                  <td>
+                    6:01 AM CST <br />
+                    <small> Fri, Dec 21</small>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="card_">
+              <img src="../Assets/images/1057.jpg" alt="" width="200px" />
+
+              <table class="table">
+                <tr>
+                  <th>
+                    American Airlines <br />
+                    <span style="color: blue">AA897</span>
+                  </th>
+                  <td></td>
+                  <td>
+                    Status <br />
+                    <span style="color: rgb(136, 213, 20)"> ontime</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Los Angles <br />
+                    <b>LAX</b><br />
+                    <small> Terminal 4, Gate 48A </small>
+                  </td>
+                  <td></td>
+                  <td>
+                    Chicago <br />
+                    <b>ORD</b> <br />
+                    <small>Terminal 3, Gate H16</small>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Departing</td>
+                  <td></td>
+                  <td>
+                    11:55 PM PST <br />
+                    <small>Thu, Dec 20</small>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Arrivinig</td>
+                  <td></td>
+                  <td>
+                    6:01 AM CST <br />
+                    <small> Fri, Dec 21</small>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="card_">
+              <img src="../Assets/images/1057.jpg" alt="" width="200px" />
+
+              <table class="table">
+                <tr>
+                  <th>
+                    American Airlines <br />
+                    <span style="color: blue">AA897</span>
+                  </th>
+                  <td></td>
+                  <td>
+                    Status <br />
+                    <span style="color: rgb(136, 213, 20)"> ontime</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Los Angles <br />
+                    <b>LAX</b><br />
+                    <small> Terminal 4, Gate 48A </small>
+                  </td>
+                  <td></td>
+                  <td>
+                    Chicago <br />
+                    <b>ORD</b> <br />
+                    <small>Terminal 3, Gate H16</small>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Departing</td>
+                  <td></td>
+                  <td>
+                    11:55 PM PST <br />
+                    <small>Thu, Dec 20</small>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Arrivinig</td>
+                  <td></td>
+                  <td>
+                    6:01 AM CST <br />
+                    <small> Fri, Dec 21</small>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="for_form">
+            <form action="">
+              <table style="margin: 5px" class="table">
+                <tr>
+                  <td>First Name</td>
+                  <td>
+                    <input type="text" name="" id="" class="form-control" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Last Name</td>
+                  <td>
+                    <input type="text" name="" id="" class="form-control" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Gender</td>
+                  <td>
+                    <input
+                      type="radio"
+                      name=""
+                      id=""
+                      class="form-check-input"
+                    />Male
+                    <input
+                      type="radio"
+                      name=""
+                      id=""
+                      class="form-check-input"
+                    />Female
+                  </td>
+                </tr>
+                <tr>
+                  <td>Date of Birth</td>
+                  <td>
+                    <input type="date" name="" id="" class="form-control" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Location</td>
+                  <td>
+                    <select name="" id="" class="form-select">
+                      <option value="">India</option>
+                      <option value="" selected>Canada</option>
+                      <option value="">United States of America</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Address</td>
+                  <td>
+                    <textarea
+                      name=""
+                      id=""
+                      cols="20"
+                      rows="10"
+                      class="form-control"
+                    ></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Upload Photo</td>
+                  <td>
+                    <input type="file" name="" id="" class="form-control" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Mobile No</td>
+                  <td>
+                    <input type="number" name="" id="" class="form-control" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Email</td>
+                  <td>
+                    <input type="email" name="" id="" class="form-control" />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Can we contact you</td>
+                  <td>
+                    <input
+                      type="radio"
+                      name=""
+                      id=""
+                      class="form-check-input"
+                    />Yes
+                    <input
+                      type="radio"
+                      name=""
+                      id=""
+                      class="form-check-input"
+                    />
+                    No
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <input
+                      type="checkbox"
+                      name=""
+                      id=""
+                      class="form-check-input"
+                    />
+                  </td>
+                  <td>I agree to the terms and conditions</td>
+                </tr>
+                <tr>
+                  <td>
+                    <button type="submit" id="" name="" class="btn btn-primary">
+                      submit
+                    </button>
+                  </td>
+                  <td>
+                    <button
+                      type="reset"
+                      id=""
+                      name=""
+                      class="btn btn-secondary"
+                    >
+                      Reset
+                    </button>
+                  </td>
+                </tr>
+              </table>
+            </form>
           </div>
         </div>
       </div>
