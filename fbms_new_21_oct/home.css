@@ -66,9 +66,10 @@ p {
 .borad-1{
 
   font-family: cursive;
-  background:rgb(249, 249, 249);
+  /* background:rgb(249, 249, 249); */
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   border-radius: 10px;
+  background: rgb(255, 255, 255);
 
 
 }
@@ -77,13 +78,16 @@ p {
 
 
   background:rgba(80, 118, 212, 0.281);
-  border-radius: 10px;
+  border-radius: 0px 0px 10px 10px;
   font-family: cursive;
   text-align: center;
 }
 
 .row1{
   text-align: left;
+  background: rgba(47, 127, 255, 0.33);
+  border-radius: 10px 10px 0px 0px;
+
 }
 
 .row3{
@@ -93,7 +97,7 @@ p {
 
 
 .nav{
-  font-family: cursive;
+  
   font-size: medium;
   font-weight: bold;
   
@@ -137,8 +141,17 @@ p {
 .for_form{
 
   background: white;
-  padding: 10px;
+  padding: 8px;
   border-radius: 15px;
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 
+}
+
+.raw{
+  border-radius: 15px;
+}
+
+.conta{
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
