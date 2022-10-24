@@ -34,10 +34,11 @@
 .bu{
 
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    /* background: red; */
-    padding: 0;
+    justify-content: right;
+    flex-wrap: wrap;
+    margin: 0px;
+    flex-shrink: 3;
+    flex-grow: 3;
 
 }
 
@@ -64,6 +65,8 @@
     border-radius: 5px;
     padding: 5px;
 
+    margin-left:15px;
+
 }
 
 
@@ -82,8 +85,33 @@ p{
 
 .cover{
 
-    background: rgba(189, 247, 187, 0.621);
+    background: rgba(189, 247, 187, 0.868);
     padding: 10px;
     border-radius: 15px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    box-shadow: rgb(55, 5, 255) 0px 3px 6px, rgb(0, 34, 255) 0px 3px 6px;
+}
+
+.feed{
+
+    font-weight: bold;
+    font-family:cursive;
+    font-size: xx-large;
+    color: rgb(2, 41, 2);
+    margin: 10px;
+    padding: 20px;
+}
+
+
+.text{
+
+    font-family: cursive;
+    background:rgba(201, 201, 201, 0.219);
+    border-radius: 15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+body{
+
+    background: url("https://images.unsplash.com/photo-1490650404312-a2175773bbf5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    /* filter: brightness(50%); */
 }
