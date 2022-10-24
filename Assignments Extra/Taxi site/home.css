@@ -1,0 +1,87 @@
+.nav{
+
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family:cursive;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+
+
+.loc{
+
+
+    background: black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right:20px ;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    font-family: cursive;
+    height: 50%;
+
+}
+
+.bu{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+
+.bt{
+
+    border: 0px;
+    background: white;
+    padding: 5px;
+    font-family: cursive;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.bt1{
+
+    border: 0px;
+    background:rgb(68, 237, 59);
+    padding: 5px;
+    font-family:cursive;
+    box-shadow: rgb(146, 146, 243) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+
+.caption{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+p{
+
+    color: rgb(164, 165, 165);
+    font-family: cursive;
+}
+
+.cover{
+
+    background: rgba(189, 247, 187, 0.621);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
