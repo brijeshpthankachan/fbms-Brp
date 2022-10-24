@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding:6px 20px;
+}
+tr th {
+ border: 1px solid #dddddd;
+  text-align: center;
+  padding:6px 20px;
+  background-color: #ad1e23;
+  color:#fff;
+}
+
+tr:hover {
+  background-color: #dddddd;
+  cursor: pointer;
+}
+
+.content td, .content th {
+    border-top: 1px solid transparent;
+    padding: 2px 10px 2px 15px;
+}
+
+</style>
+<body>
+    
+    <table border="1">
+        <thead>
+        <tr><th>T.ID</th><th>Test Case</th><th>Test Description</th><th>Expected Result</th><th>Actual Result</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+        <tr><td>1</td><td>Registration </td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>1.1</td><td>Signing In / User</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>1.1.1</td><td></td><td>Sign in using correct username & Password</td><td>Home Page</td><td>Home Page</td><td>Pass</td></tr>
+        <tr><td>1.1.2</td><td></td><td>Sign in Using Wrong Username & Password</td><td>Notification Saying "Wrong Username or Password" </td><td>Wrong Username or Password</td><td>pass</td></tr>
+        <tr><td>1.2</td><td>Password reset / user</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>1.2.1</td><td></td><td>Clicking forgot password button</td><td>Receives an OTP in registered Mobile Number</td><td>OTP Received OTP in Registered Mobile Number</td><td>Pass</td></tr>
+        <tr><td>1.2.2</td><td></td><td>Entering Correct OTP</td><td>Proceeds To Reset Page</td><td>Reset Page</td><td>Pass</td></tr>
+        <tr><td>1.2.3</td><td></td><td>Entering Incorrect OTP</td><td>Notify "Incorrect OTP"</td><td>Incorrect OPT</td><td>pass</td></tr>
+        <tr><td>1.2.4</td><td></td><td>New Password</td><td>Sign into home page</td><td>Signing into home page</td><td>pass</td></tr>
+        <tr><td></td><td></td><td></td><td></td><td></td><td>pass</td></tr>
+        <tr><td>1.3</td><td>Sign up / User</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>1.3.1</td><td>Mobile No </td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>1.3.1.1</td><td></td><td>Entering Alphabets</td><td>Notify "Invalid Mobile"</td><td>Invalid Mobile Number</td><td>pass</td></tr>
+        <tr><td>1.3.1.2</td><td></td><td>Number contains special Character</td><td>Notify "Invalid mobile Number"</td><td>"Invalid Mobile Number"</td><td>pass</td></tr>
+        <tr><td>1.3.1.3</td><td></td><td>Entering number having less than 10 digits</td><td>Notify "Invalid Mobile Number"</td><td>"Invalid Mobile Number"</td><td>pass</td></tr>
+        <tr><td>1.3.1.4</td><td></td><td>Entering number having more than 10 digits</td><td>Notify "invalid Mobile number"</td><td>"Invalid Mobile Number"</td><td>pass</td></tr>
+        <tr><td>1.3.2</td><td>email</td><td></td><td></td><td></td><td>pass</td></tr>
+        <tr><td>1.3.2.1</td><td></td><td>Entering mail id without domain name</td><td>Notify "Invalid Mail Id"</td><td>"Invalid Mail Id"</td><td>pass</td></tr>
+        <tr><td>1.3.2.2</td><td></td><td>Entering mail id with out @</td><td>Notify "Invalid Mail ID"</td><td>"Invalid Mail ID"</td><td>pass</td></tr>
+        <tr><td>1.3.3</td><td>Username</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>1.3.3.3</td><td></td><td>Entering username with special characters</td><td>Notify "Username Should Not Contain Special Characters"</td><td>"Username Should Not Contain Special Characters"</td><td>pass</td></tr>
+        <tr><td>1.3.3.4</td><td></td><td>Entering username with more than 10 letters</td><td>Notify " Your Username Should be less than 10 characters"</td><td>"Your username should be less than 10 characters"</td><td>pass</td></tr>
+        <tr><td>1.3.3.5</td><td></td><td>Entering existing username</td><td>Notify "Name taken"</td><td>"Name Taken"</td><td>pass</td></tr>
+        <tr><td>1.3.4</td><td>Password</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>1.3.4.1</td><td></td><td>Entering different passwords in password / re enter password field</td><td>Notify "Passwords Does Not Match"</td><td>"Passwords Does Not Match"</td><td>pass</td></tr>
+        <tr><td>1.3.5</td><td>Verification</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>1.3.5.1</td><td></td><td>Sending OTP to provided mobile Number</td><td>Receives the OTP</td><td>Receives OTP</td><td>pass</td></tr>
+        <tr><td>1.3.5.2</td><td></td><td>Entering Correct OTP</td><td>Notify "Incorrect OTP"</td><td>Incorrect OTP</td><td>pass</td></tr>
+        <tr><td>1.3.5.3</td><td></td><td>Entering Incorrect OTP</td><td>Notify "Mobile number Verified"</td><td>Mobile Verified</td><td>pass</td></tr>
+        <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>2</td><td>Cab registration</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>2.1</td><td>Sign up</td><td>Creating a new account</td><td>Successful creation of new account</td><td>"account created successfully"</td><td>pass</td></tr>
+        <tr><td>2.2</td><td>Sign in </td><td>Sign in using password and username</td><td>Landing on home page</td><td>Landed on home page</td><td>pass</td></tr>
+        <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>3</td><td>Booking cab</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>3.1</td><td>Nearby cars</td><td>User able to see nearby available cars</td><td>Seeing available cars in same location</td><td>All available cars on same location can be viewed</td><td>pass</td></tr>
+        <tr><td>3.2</td><td>location</td><td>App should able to fetch the correct location</td><td>Location info</td><td>Same location info</td><td>pass</td></tr>
+        <tr><td>3.3</td><td>Request service</td><td>User should able to request a service of a selected car</td><td>Cab able to see placed request</td><td>Cab can see placed request</td><td>pass</td></tr>
+        <tr><td>3.4</td><td>Cab location</td><td>User able to see cab location</td><td>User should see cabs location</td><td>User can see cabs location</td><td>pass</td></tr>
+        <tr><td></td><td>Payment</td><td>Cab should able to receive money</td><td>Money credited to cabs account</td><td>Money credited</td><td>pass</td></tr>
+        <tr><td>3.5</td><td>Bill</td><td>System should generate a bill to the user</td><td>Bill generated</td><td>Bill generated</td><td>pass</td></tr>
+        <tr><td>4</td><td>cab</td><td></td><td></td><td></td><td></td></tr>
+        <tr><td>4.1</td><td>Service request</td><td>Cabs should see all the service requests</td><td>Able to see all the service requests</td><td>Can see all the service requests</td><td>pass</td></tr>
+        <tr><td>4.2</td><td>Accept</td><td>Cab pressing accept request</td><td>User notified service accepted</td><td>"Service accepted"</td><td>pass</td></tr>
+        <tr><td>4.3</td><td>Reject</td><td>Cab pressing reject </td><td>User notified service rejected</td><td>"service rejected"</td><td>pass</td></tr>
+        <tr><td>4.5</td><td>Location</td><td>Cab able to see users location</td><td>Can see location </td><td>Can see location</td><td>pass</td></tr>
+        </tbody>
+        </table>
+
+    
+</body>
+</html>
