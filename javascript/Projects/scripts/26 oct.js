@@ -220,3 +220,5 @@ var names=['asdsada','xcxccx','wewewe']
 names.forEach((name)=>{
     console.log(name.toUpperCase());
 })
+
+
