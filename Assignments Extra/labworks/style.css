@@ -21,7 +21,7 @@ html {
   height: 100vh;
 }
 
-button {
+.button {
   background: white;
   font-family: cursive;
   margin-top: 10px;
@@ -32,7 +32,7 @@ button {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-button:hover{
+.button:hover{
 
     border:solid rgba(224, 197, 224, 0.234) ;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -47,4 +47,14 @@ button:hover{
   border: rgb(255, 255, 255);
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
     rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+
+.bottom{
+
+    display: flex;
+    background: yellow;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
 }
