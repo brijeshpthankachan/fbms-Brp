@@ -31,7 +31,5 @@ btn.forEach(e=>{
 
         }
 
-
-        // console.log(hi);
     })
 })
