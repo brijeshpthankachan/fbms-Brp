@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+</head>
+
+<!-- responsive login page using bootstrap -->
+
+<!-- Refer -->
+<!-- press control and press the link -->
+
+<!-- https://getbootstrap.com/docs/5.0/forms/overview/ -->
+
+<!-- predefined bootstrap class container is used for containing the form  -->
+
+<!-- container ==> class for container  -->
+<!-- bg-dark ==> class for dark backgound  -->
+<!-- p-5 ==> gives a padding of 5rem -->
+
+<div class="container bg-dark p-5">
+    <!-- this div containes the form  -->
+    <!-- d-flex ==> display : flex -->
+    <!-- flex-column ==> flex-direction: column;  -->
+    <!--  -->
+
+    <div class="d-flex flex-column text-light p-5">
+        <form action="" method="post" name="form" id="form">
+            <!-- form-label /  bootstrap class for labels in forms -->
+            <!-- form-control / bootstrap class for all input boxes -->
+
+            <label for="name" class="form-label">Enter Your name</label>
+            <input type="text" name="name" id="name" class="form-control" required />
+
+            <label for="email" class="form-label">Enter Your mail id</label>
+            <input type="email" name="email" id="email" class="form-control" required />
+
+            <label for="mobile" class="form-label">Enter mobile Number</label>
+            <input type="text" name="mobile" id="mobile" class="form-control" required />
+            <input type="submit" value="Login" class="btn btn-primary  mt-3 " id="btn" />
+        </form>
+    </div>
+</div>
+
+<body>
+    <script>
+        var list = document.querySelectorAll("#form input");
+
+        list.forEach((item) => {
+            item.addEventListener("keyup", function (event) {
+                var name = document.forms["form"]["name"].value;
+                var email = document.forms["form"]["email"].value;
+                var mobile = document.forms["form"]["mobile"].value;
+
+                var btn = document.getElementById('btn');
+
+
+                if (name.length < 5) {
+
+                    btn.setAttribute('disabled', true);
+                    btn.classList.add(`bg-danger`);
+
+                }
+                else {
+
+                    btn.removeAttribute('disabled');
+                    btn.classList.remove('bg-danger');
+
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
