@@ -43,7 +43,7 @@
 
             <label for="mobile" class="form-label">Enter mobile Number</label>
             <input type="text" name="mobile" id="mobile" class="form-control" required />
-            <input type="submit" value="Login" class="btn btn-primary  mt-3 " id="btn" />
+            <input type="submit" value="Login" class="btn btn-primary mt-3" id="btn" />
         </form>
     </div>
 </div>
@@ -58,20 +58,14 @@
                 var email = document.forms["form"]["email"].value;
                 var mobile = document.forms["form"]["mobile"].value;
 
-                var btn = document.getElementById('btn');
-
+                var btn = document.getElementById("btn");
 
                 if (name.length < 5) {
-
-                    btn.setAttribute('disabled', true);
+                    btn.setAttribute("disabled", true);
                     btn.classList.add(`bg-danger`);
-
-                }
-                else {
-
-                    btn.removeAttribute('disabled');
-                    btn.classList.remove('bg-danger');
-
+                } else {
+                    btn.removeAttribute("disabled");
+                    btn.classList.remove("bg-danger");
                 }
             });
         });
