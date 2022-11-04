@@ -1,0 +1,29 @@
+body,html{
+
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /* background: red; */
+    font-family:cursive;
+}
+
+
+ hr{
+    color: rgba(0, 0, 255, 0.229);
+
+} 
+
+.back{
+
+    background: rgba(15, 15, 15, 0.982);
+    border-radius: 15px;
+    color: white;
+    padding: 8px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgb(108, 255, 4) 0px 0px 0px 1px;}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
