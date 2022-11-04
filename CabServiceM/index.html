@@ -17,9 +17,9 @@
 
 <body>
 
-    <div class="d-flex justify-content-center align-items-center h-100 ">
+    <div class="d-flex justify-content-center align-items-center h-100   overlay">
 
-        <div class="container bg-light d-flex justify-content-around  py-5 w-75  pt-5 h-75">
+        <div class="container d-flex justify-content-around  py-5 w-75  pt-5 shaddow ">
 
 
             <div>
@@ -52,18 +52,22 @@
 
                 <div>
 
-                    <div class="d-flex align-items-center justify-content-center back" id="ride-div">
+                    <div class="align-items-center justify-content-center back" id="ride-div">
 
                         <div>
                             <span style=" font-family: fantasy;  font-size:x-large; ">Reqest a ride now! </span>
+                            <hr>
                             <input class="form-control" type="text" name="" id="" placeholder="where from ?.">
                             <hr>
                             <input class="form-control" type="text" name="" id="" placeholder="where to ?.">
-                            <hr>
                         </div>
 
-                        <div>⬆️⬇️</div>
 
+                        
+                <div class="d-flex justify-content-end pt-3">
+                    <button type="button" class="btn btn-outline-dark" id="divbtn">Request now</button>
+
+                </div>
 
                     </div>
 
@@ -78,15 +82,12 @@
                         </p>
 
                     </div>
+                    
 
                 </div>
 
 
 
-                <div class="d-flex justify-content-end pt-3">
-                    <button type="button" class="btn btn-outline-dark" id="divbtn">Request now</button>
-
-                </div>
 
 
             </div>
@@ -99,17 +100,17 @@
                         <hr>
                         <input class="form-control" type="email" name="mail" id="mail" placeholder="abc@gmail.com" required>
                         <hr>
-                        <input class="form-control" type="number" name="phone" id="phone" placeholder="Phone Number">
+                        <input class="form-control" type="number" name="phone" id="phone" placeholder="Phone Number" required>
                         <hr>
-                        <input class="form-control" type="text" name="username" id="username" placeholder="Username">
+                        <input class="form-control" type="text" name="username" id="username" placeholder="Username" require>
                         <hr>
                         <input class="form-control" type="password" name="password" id="password"
-                            placeholder="Password">
+                            placeholder="Password" required>
                         <hr>
                         <input class="form-control" type="password" name="confirm-password"
-                            placeholder="Confirm Password" id="confirm-password">
+                            placeholder="Confirm Password" id="confirm-password" required>
                         <hr>
-                        <input type="checkbox" name="terms" id="terms" class=" form-check-inline "> I Agree
+                        <input type="checkbox" name="terms" id="terms" class=" form-check-inline " required> I Agree
                         To The Terms And Conditions.
                         <hr>
                         <div class="d-flex pt-2 ">
@@ -135,18 +136,19 @@
 
 
 
-                <div id="signin" class="border border-secondary p-3 rounded d-none text-light bg-dark">
+                <div id="signin" class="border border-secondary p-3 rounded d-none  bg-light">
 
                     <form action="">
 
 
+                        <button class="btn btn-outline-secondary"> ⬅ </button>
                         <hr>
                         <input type="text" class="form-control" placeholder="Username">
                         <hr>
                         <input type="text" class="form-control" placeholder="password">
                        
                         <div class="d-flex pt-3">
-                            <button class="btn btn-outline-light ms-auto" type="button" >Sign in</button>
+                            <button class="btn btn-outline-dark ms-auto" type="button" >Sign in</button>
                         </div>
                        
 

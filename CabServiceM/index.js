@@ -28,6 +28,9 @@ function ride(){
 function validate(){
 
     alert("succesfully signed in");
+
+    document.querySelectorAll
+
 }
 
 function signin(){
@@ -36,3 +39,6 @@ function signin(){
     document.getElementById('signin').classList.remove('d-none');
     
 }
+
+
+

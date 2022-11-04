@@ -7,6 +7,7 @@ function getData(){
     ).then( data =>{
 
 
+
         document.getElementById('tbody').innerHTML='';
 
 
