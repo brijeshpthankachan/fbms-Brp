@@ -27,9 +27,18 @@ function ride(){
 
 function validate(){
 
-    alert("succesfully signed in");
+    // alert("succesfully signed in");S
 
-    document.querySelectorAll
+    var list = document.querySelectorAll("#form1 input");
+    // console.log(list);
+    list.forEach((e)=>{
+
+        e.addEventListener("keyup",function(event){
+
+            
+
+        })
+    });
 
 }
 
