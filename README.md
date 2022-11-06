@@ -1,4 +1,4 @@
-# This repositiry includes all project contents part of bootcamp training process;
+# This repository includes all project contents part of bootcamp training process;
 
 ## \*/>''<\*/
 
