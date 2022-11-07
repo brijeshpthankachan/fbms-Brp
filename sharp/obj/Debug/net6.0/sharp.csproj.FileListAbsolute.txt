@@ -1,0 +1,15 @@
+C:\Users\brijesh.thankachan\Documents\fbms\sharp\bin\Debug\net6.0\sharp.exe
+C:\Users\brijesh.thankachan\Documents\fbms\sharp\bin\Debug\net6.0\sharp.deps.json
+C:\Users\brijesh.thankachan\Documents\fbms\sharp\bin\Debug\net6.0\sharp.runtimeconfig.json
+C:\Users\brijesh.thankachan\Documents\fbms\sharp\bin\Debug\net6.0\sharp.dll
+C:\Users\brijesh.thankachan\Documents\fbms\sharp\bin\Debug\net6.0\sharp.pdb
+C:\Users\brijesh.thankachan\Documents\fbms\sharp\obj\Debug\net6.0\sharp.csproj.AssemblyReference.cache
+C:\Users\brijesh.thankachan\Documents\fbms\sharp\obj\Debug\net6.0\sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brijesh.thankachan\Documents\fbms\sharp\obj\Debug\net6.0\sharp.AssemblyInfoInputs.cache
+C:\Users\brijesh.thankachan\Documents\fbms\sharp\obj\Debug\net6.0\sharp.AssemblyInfo.cs
+C:\Users\brijesh.thankachan\Documents\fbms\sharp\obj\Debug\net6.0\sharp.csproj.CoreCompileInputs.cache
+C:\Users\brijesh.thankachan\Documents\fbms\sharp\obj\Debug\net6.0\sharp.dll
+C:\Users\brijesh.thankachan\Documents\fbms\sharp\obj\Debug\net6.0\refint\sharp.dll
+C:\Users\brijesh.thankachan\Documents\fbms\sharp\obj\Debug\net6.0\sharp.pdb
+C:\Users\brijesh.thankachan\Documents\fbms\sharp\obj\Debug\net6.0\sharp.genruntimeconfig.cache
+C:\Users\brijesh.thankachan\Documents\fbms\sharp\obj\Debug\net6.0\ref\sharp.dll
