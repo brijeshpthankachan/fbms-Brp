@@ -1,0 +1,146 @@
+#!markdown
+
+## 08 November 2022
+------
+- *Value Types are stored at stack and references are stored at heap.*
+- *Every Datatype is derived from a base type called object.*
+- *An object has four methods.*
+  
+>- `ToString()`
+>- `GetType()`
+>- `GetHashcode()`
+>- `Equals()`
+
+#!markdown
+
+#### Arrays
+--------
+- *When unassigned Arrays contain deafult values of the array type*
+- *Arrays are of Fixed Type*
+
+#!csharp
+
+int [] numbers = new int[5];
+int [] num = {1,3,4,5,6,7,8};
+
+Console.WriteLine(numbers[0]);
+Console.WriteLine(num[0]);
+
+#!markdown
+
+#### Looping
+--------
+
+#!csharp
+
+int[] numbers = new int[5];
+for (int i=0; i<5;) {
+  try{
+    numbers[i++]= int.Parse(Console.ReadLine());
+  }
+  catch(Exception){
+    Console.WriteLine("Enter a Valid Integer!!");
+    continue;
+  }
+}
+
+#!markdown
+
+<i >`find the largest and second largest element in the array`</i>
+
+#!csharp
+
+int [] nums={1,2,3,4,5,6,7,8,9,10};
+
+
+
+int larg = 0;
+int secLarg =0;
+
+
+for(int i=0;i<nums.Length;i++){
+
+if(nums[i]>larg){
+
+  secLarg = larg;
+  larg = nums[i];
+}
+
+if((secLarg < nums[i])  && (nums[i]!=larg) ){
+
+  secLarg = nums[i];
+}
+
+}
+
+
+Console.Write($"Largest Number =  {larg}, Second Largest = {secLarg}");
+
+#!markdown
+
+## 09 November 2022
+------------
+
+#!markdown
+
+#### String Functions
+-----------------
+<i>`String functions returns a new string , does not modify the original String, String is immutable`</i>
+
+
+- ToUpper()
+-  ToLower()
+-  StartsWith()
+   - `Starts with a string or not, returns a boolean`
+- EndsWith()  
+   - `Returns a boolean as well`
+- Replace("","");
+
+#!csharp
+
+string name = "Brijesh P Thankachan";
+Console.WriteLine(name.StartsWith("bri",true,null));
+Console.WriteLine(name.StartsWith("sh",StringComparison.InvariantCultureIgnoreCase));
+
+Console.WriteLine(name.Replace('e','T'));
+
+#!markdown
+
+*Prior to `C-sharp 10` refernce type are nullable by default and the value types are nullable by default*
+
+#!csharp
+
+var data = new int?[5];
+
+foreach(var item in data){
+
+    Console.WriteLine(item);
+}
+
+#!csharp
+
+String na = null;
+Console.WriteLine(na??"Onnuoolla");
+// null coalescing operator.
+
+// null coalescing Assignment operator.
+na ??="unknown";
+Console.WriteLine(na);
+
+#!csharp
+
+int pal(string name){
+
+    for(int i=0,j=name.Length-1;i<name.Length/2;i++,j--){
+
+        if(name[i]!=name[j]){
+
+            return 0;
+        }
+
+    return 1;
+}
+}
+
+
+// string name = "malayalam";

@@ -1,0 +1,30 @@
+#!csharp
+
+StudentMarkInformation s1 = new StudentMarkInformation("brijesh", 85, 90);
+
+
+class StudentMarkInformation
+{
+    private string name;
+    private int mark1, mark2,total;
+
+    public StudentMarkInformation(string name, int mark1, int mark2)
+
+    {
+        this.name = name;
+        this.mark1 = mark1;
+        this.mark2 = mark2;
+        this.total=Total();
+    }
+
+    private int Total()=>this.mark1+this.mark2;
+
+    public void GetData()
+    {
+        Console.WriteLine($"{this.name}  {this.mark1}  {this.mark2}  {this.Total()}");
+    }
+}
+
+
+
+s1.GetData();
