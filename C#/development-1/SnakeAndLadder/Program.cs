@@ -1,18 +1,34 @@
+<<<<<<< HEAD
 ﻿Console.WriteLine("Enter First Players's Name");
 string? firstPlayerName = Console.ReadLine();
 Console.WriteLine("Enter Second Players Name");
 string? secondPlayersName = Console.ReadLine();
+=======
+﻿
+
+
+Console.WriteLine("Enter First Players's Name");
+string firstPlayerName = Console.ReadLine();
+Console.WriteLine("Enter Second Players Name");
+string secondPlayersName = Console.ReadLine();
+>>>>>>> c8ac1849255a081b168a81d45f5bf3a2de7f3b27
 
 Console.WriteLine("-----------------------------------");
 Console.WriteLine("Press T to Throw Dice");
 Console.WriteLine("Press q to Quit");
 
 
+<<<<<<< HEAD
 //-----------------------------------------------------------------------------
 
 int firstPlayerPosition = 0, secondPlayerPosition = 0, play = 2, maxScore = 100;
 
 //-----------------------------------------------------------------------------
+=======
+int firstPlayerPosition = 0, secondPlayerPosition = 0, play = 2, maxScore = 100;
+
+
+>>>>>>> c8ac1849255a081b168a81d45f5bf3a2de7f3b27
 
 void Display()
 {
@@ -21,9 +37,12 @@ void Display()
     Console.WriteLine($"{secondPlayersName} : {secondPlayerPosition}");
 }
 
+<<<<<<< HEAD
 
 //-----------------------------------------------------------------------------
 
+=======
+>>>>>>> c8ac1849255a081b168a81d45f5bf3a2de7f3b27
 void HasWon()
 {
     if (firstPlayerPosition == maxScore)
@@ -111,7 +130,17 @@ while (true)
     }
     else
     {
+<<<<<<< HEAD
        Console.WriteLine("Invalid Option");
     }
 
 }
+=======
+        Console.WriteLine("Invalid Option");
+    }
+
+}
+
+
+
+>>>>>>> c8ac1849255a081b168a81d45f5bf3a2de7f3b27

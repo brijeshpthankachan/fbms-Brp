@@ -8,8 +8,11 @@ class StudentMarkInformation
     private string name;
     private int mark1, mark2,total;
 
+<<<<<<< HEAD
     
 
+=======
+>>>>>>> c8ac1849255a081b168a81d45f5bf3a2de7f3b27
     public StudentMarkInformation(string name, int mark1, int mark2)
 
     {
