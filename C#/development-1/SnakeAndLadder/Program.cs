@@ -1,19 +1,18 @@
-﻿
-
-
-Console.WriteLine("Enter First Players's Name");
-string firstPlayerName = Console.ReadLine();
+﻿Console.WriteLine("Enter First Players's Name");
+string? firstPlayerName = Console.ReadLine();
 Console.WriteLine("Enter Second Players Name");
-string secondPlayersName = Console.ReadLine();
+string? secondPlayersName = Console.ReadLine();
 
 Console.WriteLine("-----------------------------------");
 Console.WriteLine("Press T to Throw Dice");
 Console.WriteLine("Press q to Quit");
 
 
+//-----------------------------------------------------------------------------
+
 int firstPlayerPosition = 0, secondPlayerPosition = 0, play = 2, maxScore = 100;
 
-
+//-----------------------------------------------------------------------------
 
 void Display()
 {
@@ -21,6 +20,9 @@ void Display()
     Console.WriteLine($"{firstPlayerName} : {firstPlayerPosition} ");
     Console.WriteLine($"{secondPlayersName} : {secondPlayerPosition}");
 }
+
+
+//-----------------------------------------------------------------------------
 
 void HasWon()
 {
@@ -109,10 +111,7 @@ while (true)
     }
     else
     {
-        Console.WriteLine("Invalid Option");
+       Console.WriteLine("Invalid Option");
     }
 
 }
-
-
-

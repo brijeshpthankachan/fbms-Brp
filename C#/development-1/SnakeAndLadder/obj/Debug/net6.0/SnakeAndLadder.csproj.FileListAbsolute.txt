@@ -1,0 +1,15 @@
+C:\Users\brijesh.thankachan\Documents\fbms\C#\development-1\SnakeAndLadder\bin\Debug\net6.0\SnakeAndLadder.exe
+C:\Users\brijesh.thankachan\Documents\fbms\C#\development-1\SnakeAndLadder\bin\Debug\net6.0\SnakeAndLadder.deps.json
+C:\Users\brijesh.thankachan\Documents\fbms\C#\development-1\SnakeAndLadder\bin\Debug\net6.0\SnakeAndLadder.runtimeconfig.json
+C:\Users\brijesh.thankachan\Documents\fbms\C#\development-1\SnakeAndLadder\bin\Debug\net6.0\SnakeAndLadder.dll
+C:\Users\brijesh.thankachan\Documents\fbms\C#\development-1\SnakeAndLadder\bin\Debug\net6.0\SnakeAndLadder.pdb
+C:\Users\brijesh.thankachan\Documents\fbms\C#\development-1\SnakeAndLadder\obj\Debug\net6.0\SnakeAndLadder.csproj.AssemblyReference.cache
+C:\Users\brijesh.thankachan\Documents\fbms\C#\development-1\SnakeAndLadder\obj\Debug\net6.0\SnakeAndLadder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brijesh.thankachan\Documents\fbms\C#\development-1\SnakeAndLadder\obj\Debug\net6.0\SnakeAndLadder.AssemblyInfoInputs.cache
+C:\Users\brijesh.thankachan\Documents\fbms\C#\development-1\SnakeAndLadder\obj\Debug\net6.0\SnakeAndLadder.AssemblyInfo.cs
+C:\Users\brijesh.thankachan\Documents\fbms\C#\development-1\SnakeAndLadder\obj\Debug\net6.0\SnakeAndLadder.csproj.CoreCompileInputs.cache
+C:\Users\brijesh.thankachan\Documents\fbms\C#\development-1\SnakeAndLadder\obj\Debug\net6.0\SnakeAndLadder.dll
+C:\Users\brijesh.thankachan\Documents\fbms\C#\development-1\SnakeAndLadder\obj\Debug\net6.0\refint\SnakeAndLadder.dll
+C:\Users\brijesh.thankachan\Documents\fbms\C#\development-1\SnakeAndLadder\obj\Debug\net6.0\SnakeAndLadder.pdb
+C:\Users\brijesh.thankachan\Documents\fbms\C#\development-1\SnakeAndLadder\obj\Debug\net6.0\SnakeAndLadder.genruntimeconfig.cache
+C:\Users\brijesh.thankachan\Documents\fbms\C#\development-1\SnakeAndLadder\obj\Debug\net6.0\ref\SnakeAndLadder.dll

@@ -8,6 +8,8 @@ class StudentMarkInformation
     private string name;
     private int mark1, mark2,total;
 
+    
+
     public StudentMarkInformation(string name, int mark1, int mark2)
 
     {
