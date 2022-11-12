@@ -37,7 +37,8 @@
 
 
 
-//var list = new List<int>();
+Mobile m2 = new Mobile();
+m2.Set("Galaxy", "Note 20", 20000);
 
 //list.Add(10);
 //list.Add(20);
