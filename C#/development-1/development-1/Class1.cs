@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿//using development_1;
 //using System;
 //using System.Collections.Generic;
@@ -34,13 +33,7 @@
 //}
 
 
-=======
-﻿using development_1;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace development_1
 {
@@ -68,5 +61,4 @@ namespace development_1
     }
    
 }
->>>>>>> c8ac1849255a081b168a81d45f5bf3a2de7f3b27
 
