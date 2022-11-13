@@ -1,5 +1,4 @@
 ﻿
-<<<<<<< HEAD
 using development_1;
 
 
@@ -148,7 +147,7 @@ for(int i = 1; i <= 50; i++)
     }
 
 }
-=======
+
 //Console.WriteLine(Add(5, 6));
 //Console.WriteLine(Add(5, 6, 7, 8));
 
@@ -283,13 +282,3 @@ for(int i = 1; i <= 50; i++)
 
 
 
-
-using development_1;
-
-StudentMarkInformation s1 = new("brijesh", 80, 90);
-
-s1.GetData();
-
-
-
->>>>>>> c8ac1849255a081b168a81d45f5bf3a2de7f3b27
