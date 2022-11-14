@@ -1,0 +1,15 @@
+C:\Users\brijesh.thankachan\Documents\fbms\C#\14thassesement\14thassesement\obj\Debug\net6.0\14thassesement.csproj.AssemblyReference.cache
+C:\Users\brijesh.thankachan\Documents\fbms\C#\14thassesement\14thassesement\obj\Debug\net6.0\14thassesement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brijesh.thankachan\Documents\fbms\C#\14thassesement\14thassesement\obj\Debug\net6.0\14thassesement.AssemblyInfoInputs.cache
+C:\Users\brijesh.thankachan\Documents\fbms\C#\14thassesement\14thassesement\obj\Debug\net6.0\14thassesement.AssemblyInfo.cs
+C:\Users\brijesh.thankachan\Documents\fbms\C#\14thassesement\14thassesement\obj\Debug\net6.0\14thassesement.csproj.CoreCompileInputs.cache
+C:\Users\brijesh.thankachan\Documents\fbms\C#\14thassesement\14thassesement\bin\Debug\net6.0\14thassesement.exe
+C:\Users\brijesh.thankachan\Documents\fbms\C#\14thassesement\14thassesement\bin\Debug\net6.0\14thassesement.deps.json
+C:\Users\brijesh.thankachan\Documents\fbms\C#\14thassesement\14thassesement\bin\Debug\net6.0\14thassesement.runtimeconfig.json
+C:\Users\brijesh.thankachan\Documents\fbms\C#\14thassesement\14thassesement\bin\Debug\net6.0\14thassesement.dll
+C:\Users\brijesh.thankachan\Documents\fbms\C#\14thassesement\14thassesement\bin\Debug\net6.0\14thassesement.pdb
+C:\Users\brijesh.thankachan\Documents\fbms\C#\14thassesement\14thassesement\obj\Debug\net6.0\14thassesement.dll
+C:\Users\brijesh.thankachan\Documents\fbms\C#\14thassesement\14thassesement\obj\Debug\net6.0\refint\14thassesement.dll
+C:\Users\brijesh.thankachan\Documents\fbms\C#\14thassesement\14thassesement\obj\Debug\net6.0\14thassesement.pdb
+C:\Users\brijesh.thankachan\Documents\fbms\C#\14thassesement\14thassesement\obj\Debug\net6.0\14thassesement.genruntimeconfig.cache
+C:\Users\brijesh.thankachan\Documents\fbms\C#\14thassesement\14thassesement\obj\Debug\net6.0\ref\14thassesement.dll
