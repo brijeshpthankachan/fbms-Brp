@@ -27,3 +27,4 @@ Create React App doesn’t handle backend logic or databases; it just creates a 
 - A **compiler** such as Babel. It lets you write modern JavaScript code that still works in older browsers.
 
 
+ok
