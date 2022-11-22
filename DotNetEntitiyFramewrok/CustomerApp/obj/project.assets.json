@@ -3515,11 +3515,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brije\\source\\repos\\CustomerApp\\CustomerApp.csproj",
+      "projectUniqueName": "C:\\Users\\brije\\OneDrive\\Documents\\fbms-Brp\\DotNetEntitiyFramewrok\\CustomerApp\\CustomerApp.csproj",
       "projectName": "CustomerApp",
-      "projectPath": "C:\\Users\\brije\\source\\repos\\CustomerApp\\CustomerApp.csproj",
+      "projectPath": "C:\\Users\\brije\\OneDrive\\Documents\\fbms-Brp\\DotNetEntitiyFramewrok\\CustomerApp\\CustomerApp.csproj",
       "packagesPath": "C:\\Users\\brije\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brije\\source\\repos\\CustomerApp\\obj\\",
+      "outputPath": "C:\\Users\\brije\\OneDrive\\Documents\\fbms-Brp\\DotNetEntitiyFramewrok\\CustomerApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\brije\\AppData\\Roaming\\NuGet\\NuGet.Config",
