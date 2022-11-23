@@ -23,7 +23,7 @@ namespace ConsoleApp1.Data
         }
 
         public DbSet<Customers> Customer { get; set; }
-
+        public DbSet<Address> Address { get; set; } 
     }
 }
 
